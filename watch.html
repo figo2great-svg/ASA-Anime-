@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animes ASA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+      <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="Anime.html">My Animes</a>
+      </div>
+
+      <h2 class="logo">ASA Anime</h2>
+
+      <div class="nav-right">
+        <a href="sign in.html">sign in</a>
+      </div>
+        </nav>
+    </nav>
+    <div class="anime-page">
+      <h1>Animes</h1>
+      <div class="search-box">
+    <input
+        type="text"
+        id="anime-search"
+        placeholder="Search Anime..."
+        oninput="searchAnime()"
+    >
+</div>
+      <div class="anime-grid">
+
+               <div class="anime-card">
+          <img src="knk.jpg.jfif">
+          <h3>Koe no katachi</h3>
+          <h4>( film )</h4>
+          <button onclick="window.location.href = 'knk.html'">Watch</button>
+          <button onclick="addAnime ('Koe no katachi','knk.jpg.jfif')">Add to my Anime</button>
+        </div>
+
+      </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+
+    </html>
+    
